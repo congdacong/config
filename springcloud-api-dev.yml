@@ -30,14 +30,14 @@ server:
 spring:
   profiles: test
   application:
-    name: springCloud-api
+    name: springCloud-api8082
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://39.96.63.56:3306/bot?
     username: root
     password: root
 mybatis:
-  config-location: classpath*:mapper/*Dao.xml
+  config-location: classpath*:mapper8082/*Dao.xml
 eureka:
   client:
     service-url:
