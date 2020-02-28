@@ -38,7 +38,7 @@ spring:
     username: root
     password: root
 mybatis:
-  config-location: classpath*:mapper8082/*Dao.xml
+   mapper-locations: classpath*:mapper8082/*Dao.xml
 eureka:
   client:
     service-url:
