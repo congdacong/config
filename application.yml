@@ -1,16 +1,1 @@
-#spring:
-#  profiles:
-#    active:
-#      - dev
-#---
-#spring:
-#  profiles: dev
-#    application:
-#      name: springcloud-dev
-#---
-#spring:
-#  profiles: test
-#    application:
-#      name: springcloud-test
-name:
-  congguangbo
+5454
