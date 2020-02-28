@@ -1,1 +1,16 @@
-name: congguangbo
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: spring-cloud-test 
+    
+
+---
+spring:
+  profiles: dev
+  application:
+    name: spring-cloud-dex
